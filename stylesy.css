@@ -1,0 +1,266 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+
+.modules {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+
+.module {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.module:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.module h2 {
+    margin-bottom: 0.5rem;
+    color: #06206A;
+}
+
+.module p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+
+.view-more {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+    background: #06206A;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.view-more:hover {
+    background: #0056b3;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+.section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-button {
+    margin-right: 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #06206A;
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
+
+.toggle-button.collapsed {
+    transform: rotate(-90deg);
+}
+
+.collapse-all {
+    background: none;
+    border: none;
+    color: #06206A;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.collapse-all:hover {
+    color: #06206A;
+}
+
+
+.section-content {
+    padding: 15px;
+    display: block;
+}
+
+.section-content.hidden {
+    display: none;
+}
+
+
+.general {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.general:last-child {
+    border-bottom: none;
+}
+
+.icon {
+    background-color: #eee;
+    color: #fff;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.module-img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.hipsters-main {
+    width: 1200px;
+    height: auto;
+}
+
+.container-house {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quiz-button {
+    background: #06206A;
+    color: #fff;
+    border: 2px solid #06206A;
+    border-radius: 15px;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quiz-button:hover {
+    background-color: purple;
+    color: white;
+    border-color: purple;
+}
+
+
+.quiz-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.5);
+}
+
+
+.modern-button:active {
+    transform: scale(0.95);
+}
+
+
+.mission-title {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.doc-button {
+    background-color: purple;
+    color: #fff;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.doc-button:hover {
+    background-color: #06206A;
+}
